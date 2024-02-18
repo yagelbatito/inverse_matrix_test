@@ -122,7 +122,7 @@ if square_matrix is not None:
         print("the inverse matrix according numpy function is: \n", np.linalg.inv(square_matrix))
         print("the inverse matrix according numpy function is: \n", np.linalg.inv(square_matrix))
         print(
-            "date:19.02.24 \n the git link:https://github.com/yagelbatito/analiza_test_batititia.git\ngroup:Almog Babila 209477678, Hay Carmi 207265687, Yagel Batito 318271863, Meril Hasid 324569714\nstudent:Yagel Batito 318271863")
+            "date:19.02.24 \n the git link: https://github.com/yagelbatito/inverse_matrix_test.git\ngroup:Almog Babila 209477678, Hay Carmi 207265687, Yagel Batito 318271863, Meril Hasid 324569714\nstudent:Yagel Batito 318271863")
 
 
     except ValueError as e:
