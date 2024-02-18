@@ -103,25 +103,6 @@ def matrix_inverse(matrix):
 
     return identity
 
-def input_square_matrix():
-    try:
-        size = int(input("Enter the size of the square matrix: "))
-        if size <= 0:
-            raise ValueError("Size must be a positive integer.")
-
-        matrix = []
-        for i in range(size):
-            row = []
-            for j in range(size):
-                element = float(input(f"Enter the value for element at position ({i + 1}, {j + 1}): "))
-                row.append(element)
-            matrix.append(row)
-
-        return np.array(matrix)
-
-    except ValueError as e:
-        print(f"Error: {e}")
-        return None
 
 # Call the function
 square_matrix = np.array([[1,10,-10],
